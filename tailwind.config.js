@@ -67,6 +67,8 @@ module.exports = {
           "inset -3px -3px 7px #FFFFFF, inset 2px 2px 5px rgba(136, 165, 191, 0.38)",
         "box-up":
           "-4px -2px 16px #FFFFFF, 4px 2px 16px rgba(136, 165, 191, 0.54)",
+        "box-up-menu":
+          "-4px -2px 16px #FFFFFF, 4px 2px 16px rgba(136, 165, 191, 1)",
         "box-dark":
           "-4px -2px 16px rgba(195, 200, 205, 0.09), 4px 4px 18px rgba(0, 0, 0, 0.5)",
         "box-dark-out": "inset 2px 2px 2px rgba(26, 32, 38, 0.4)",
