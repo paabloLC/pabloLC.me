@@ -16,6 +16,6 @@
 * __Styled__ with Tailwind CSS.
 * __Uses `astro@1.0`__
 * __Modular__ - The structure is highly modular, feel free to customize or add new components.
-* __Font family__ - The Google font `Raleway` has been integrated into the project. It's not using a CDN.
+* __Font-family__ - The Google font `Raleway` has been integrated into the project. It's not using a CDN.
 
 ## 🚀 Live demo URL: <https://astro-neumorph.deno.dev/>
