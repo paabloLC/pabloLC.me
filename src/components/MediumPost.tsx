@@ -7,7 +7,7 @@ const Blog = () => {
 
   useEffect(() => {
     fetch(
-      "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@hohanga"
+      "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@pablolc"
     )
       .then((res) => res.json())
       .then((response) => {
