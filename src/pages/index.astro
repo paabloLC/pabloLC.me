@@ -4,23 +4,21 @@ import MainCard from "src/components/MainCard.astro";
 import MediumPost from "@components/MediumPost";
 import MainContainer from "src/components/MainContainer.astro";
 import ContainerScroll from "@components/ContainerScroll.astro";
+import ContainerUp from "@components/ContainerUp.astro";
 ---
 
 <Layout title="Welcome to pabloLC website">
-	<div class="flex flex-col lg:flex-row w-full">
-		<div class="flex min-w-[60%] 2xl:min-w-[50%] mr-5"><MainCard /></div>
-		<div class="flex w-fit 2xl:w-80"></div>
-	</div>
-	
 
-	<div class="block lg:hidden 2xl:block overflow-auto no-scrollbar">
+	<div class="flex space-x-5 overflow-auto no-scrollbar h-full">
+		<ContainerUp>
+			<MainCard />
+		</ContainerUp>
+		<!-- <ContainerScroll>
+			<div class="flex min-w-[60%] 2xl:min-w-[50%] mr-5"><MainCard /></div>
+		</ContainerScroll> -->
 		<ContainerScroll>
-			<MediumPost client:visible />
+			
 		</ContainerScroll>
 	</div>
 
-	<div class="hidden lg:flex 2xl:hidden">
-		<MainContainer>
-		</MainContainer>
-	</div>
 </Layout>
