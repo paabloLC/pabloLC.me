@@ -19,7 +19,7 @@
     "tailwindcss": "^3.1.8"
   },
   "dependencies": {
-    "@astrojs/deno": "^1.0.0",
+    "@astrojs/deno": "^1.2.0",
     "atropos": "1.0.2",
     "moment": "^2.29.4"
   }
