@@ -3,10 +3,10 @@ import IconGithub from "./IconGithub.astro"
 import IconTwitter from "./IconTwitter.astro"
 import IconHome from "./IconHome.astro"
 import IconInstagram from "./IconInstagram.astro"
-import IconArrowRight from "./IconArrowRight.astro"
 import IconUser from "./IconUser.astro"
 import IconBlog from "./IconBlog.astro"
 import IconAstro from "./IconAstro.astro"
+import IconMenu from "./IconMenu.astro"
 
 export {
   IconSun,
@@ -14,8 +14,8 @@ export {
   IconTwitter,
   IconHome,
   IconInstagram,
-  IconArrowRight,
   IconUser,
   IconBlog,
+  IconMenu,
   IconAstro
 }

@@ -10,14 +10,7 @@ module.exports = {
           "blue-light": "#7687A1",
         },
         dark: {
-          "primary": "#EBF3FA",
-          "secondary": "#17191C",
           "blue-light": "#7687a1",
-        },
-        opera: {
-          primary: "#6d5dfc",
-          light: "#8abdff",
-          dark: "#5b0eeb",
         },
         gray: {
           "light-1": "#E4EBF5",
@@ -74,6 +67,8 @@ module.exports = {
           "inset -3px -3px 7px #FFFFFF, inset 2px 2px 5px rgba(136, 165, 191, 0.38)",
         "box-up":
           "-4px -2px 16px #FFFFFF, 4px 2px 16px rgba(136, 165, 191, 0.54)",
+        "box-up-menu":
+          "-4px -2px 16px #FFFFFF, 4px 2px 16px rgba(136, 165, 191, 1)",
         "box-dark":
           "-4px -2px 16px rgba(195, 200, 205, 0.09), 4px 4px 18px rgba(0, 0, 0, 0.5)",
         "box-dark-out": "inset 2px 2px 2px rgba(26, 32, 38, 0.4)",
@@ -87,18 +82,18 @@ module.exports = {
           "-16px 20px 40px rgba(215, 215, 215, 0.3), -2px 2px 24px rgba(22, 28, 47, 0.3), -16px 28px 120px rgba(0, 0, 0, 0.1)",
         "orange-dark":
           "-16px 20px 40px rgba(244, 102, 0, 0.3), -2px 2px 24px rgba(255, 144, 64, 0.6), -16px 28px 120px rgba(244, 102, 0, 0.1)",
-        switcher:
+        'switcher':
           "0px -6px 24px #FFFFFF, 0px 7px 16px rgba(104, 132, 157, 0.5)",
-        up: "0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #fff",
-        down: "inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #fff",
+        'up': "0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #fff",
+        'down': "inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #fff",
       },
       animation: {
         "fade-in": "fade-in 200ms ease-out 0s 1 normal forwards running",
         "fade-out": "fade-out 200ms ease-in 0s 1 normal forwards running",
-        expand: "expand 400ms linear 0s 1 normal forwards running",
+        'expand': "expand 400ms linear 0s 1 normal forwards running",
         "slide-in": "slide-in 400ms linear 0s 1 normal forwards running",
         "slide-out": "slide-out 400ms linear 0s 1 normal forwards running",
-        collapse: "collapse 400ms linear 0s 1 normal forwards running",
+        'collapse': "collapse 400ms linear 0s 1 normal forwards running",
       },
       spacing: {
         0.5: "0.125rem", // 2px
@@ -130,9 +125,6 @@ module.exports = {
         55: "13.75rem", // 220px
         60: "15rem", // 240px
       },
-      lineHeight: {
-        "extra-loose": "1",
-      },
       fontSize: {
         '4xs': "0.5rem", // 10px
         '3xs': "0.65rem", // 12px
@@ -152,6 +144,7 @@ module.exports = {
       },
       animation: {
         "moving-background": "moving-background 5s ease-in-out",
+        "slide-text": "slide 5s infinite",
       },
       keyframes: {
         "moving-background": {
@@ -165,6 +158,20 @@ module.exports = {
           "100%": {
             transform: "translateY(-150px)",
             opacity: 0,
+          },
+        },
+        "slide": {
+          "0%": {
+            top: 0,
+          },
+          "25%": {
+            top: "-1.2em",
+          },
+          "50%": {
+            top: "-2.4em",
+          },
+          "75%": {
+            top: "-3.6em",
           },
         },
       },
