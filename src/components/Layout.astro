@@ -37,7 +37,7 @@ const { title } = Astro.props as Props;
         class="flex flex-col p-4 m-4 md:p-8 md:my-10 md:mx-12 lg:mx-0 lg:my-0 lg:mr-5 w-fit lg:w-[calc(100vw_-_300px)] 2xl:w-[calc(100vw_-_300px)] rounded-tr-2xl rounded-tl-lg rounded-b-lg bg-gradient-box-light shadow-sky-light dark:bg-box-dark dark:shadow-orange-dark min-h-[calc(100vh_-_80px)] lg:min-h-fit lg:h-[calc(100vh_-_100px)] justify-between"
       >
         <div class="flex w-full relative mb-2 md:mb-4">
-          <div class="flex w-15 -top-5 sm:top-0 sm:w-fit absolute">
+          <div class="hidden md:flex w-15 -top-5 absolute">
             <IconAstro />
           </div>
           <div
@@ -47,7 +47,7 @@ const { title } = Astro.props as Props;
               pabloLC
             </h1>
             <h1
-              class="font-thin leading-extra-loose text-sm md:text-xl 2xl:text-2xl"
+              class="font-thin leading-extra-loose text-xs md:text-xl 2xl:text-2xl"
             >
             Software Engineer 
             </h1>
